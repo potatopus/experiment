@@ -1,0 +1,132 @@
+* {
+    background-color: lightslategrey;
+    font-family: 'Segoe UI';
+}
+
+table {
+    border-collapse: collapse;
+    margin: auto;
+    text-align: center;
+}
+
+th {
+    height: 30px;
+    border: 1px solid;
+}
+
+td {
+    border: 1px solid;
+    width: 60px;
+    height: 60px;
+    font-size: 18px;
+}
+
+td:hover {
+    scale: 200%;
+    transition: ease .4s;
+}
+
+.noborder {
+    border: 0;
+    background-color: transparent;
+}
+
+.subtext {
+    font-size: 9px;
+    background-color: transparent;
+}
+
+.num {
+    font-size: 10px;
+    text-align: justify;
+    background-color: transparent;
+}
+
+.legend {
+    font-size: 14px;
+    background-color: transparent;
+}
+
+.atomnum {
+    color: azure;
+    font-size: 16px;
+    background-color: transparent;
+    text-align: justify;
+    padding-bottom: 4px;
+}
+
+.symbol {
+    color: azure;
+    height: 16px;
+    font-size: 30px;
+    background-color: transparent;
+}
+
+.name-mass {
+    color: azure;
+    padding-top: 10px;
+    font-size: 12px;
+    background-color: transparent;
+}
+
+.borderT {
+    border: 2px solid;
+    border-bottom: 0;
+    background-color: rgb(76, 90, 104);
+}
+
+.borderB {
+    border: 2px solid;
+    border-top: 0;
+    background-color: rgb(76, 90, 104);
+}
+
+.alkali {
+    background-color: rgb(255, 123, 145);
+    box-shadow: inset 0 0 10px 0 rgb(252, 20, 58);
+}
+
+.alkaline {
+    background-color: rgb(209, 160, 103);
+    box-shadow: inset 0 0 10px 1px rgb(180, 97, 1);
+}
+
+.transition {
+    background-color: hsl(54, 100%, 87%);
+    box-shadow: inset 0 0 10px 0 hsl(54, 100%, 60%);
+}
+
+.basic {
+    background-color: rgb(173, 255, 217);
+    box-shadow: inset 0 0 10px 0 rgb(0, 255, 136);
+}
+
+.semimetal {
+    background-color: #29b0ff;
+    box-shadow: inset 0 0 10px 0 #0059ff;
+}
+
+.nonmetal {
+    background-color: rgb(149, 151, 255);
+    box-shadow: inset 0 0 10px 0 rgb(46, 50, 255);
+}
+
+.halogen {
+    background-color: rgb(232, 192, 255);
+    box-shadow: inset 0 0 10px 1px rgb(186, 66, 255);
+}
+
+.noblegas {
+    background-color: rgb(221, 160, 221);
+    box-shadow: inset 0 0 10px 1px rgb(224, 71, 224);
+}
+
+.lanthanide {
+    background-color: #ffad9f; 
+    box-shadow: inset 0 0 10px 1px #ff5436;
+}
+
+.actinide {
+    background-color: rgb(255, 162, 162);
+    box-shadow: inset 0 0 10px 1px rgb(255, 45, 45);
+}
